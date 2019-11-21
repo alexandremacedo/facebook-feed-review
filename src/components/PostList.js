@@ -6,7 +6,7 @@ class PostList extends Component {
   state={
     posts: [
       {
-        id: '1',
+        id: 1,
         author: {
           avatar: 'https://i.pravatar.cc/150?img=1',
           name: 'Helena Macedo',
@@ -15,7 +15,7 @@ class PostList extends Component {
         content: 'Este é meu primeiro post',
         comments: [
           {
-            id: '1',
+            id: 1,
             author: {
               avatar: 'https://avatars2.githubusercontent.com/u/2254731?v=4',
               name: 'Diego Oliveira',
@@ -26,7 +26,7 @@ class PostList extends Component {
         ]
       },
       {
-        id: '2',
+        id: 2,
         author: {
           avatar: 'https://avatars2.githubusercontent.com/u/2254731?v=4',
           name: 'Diego Oliveira',
@@ -35,7 +35,7 @@ class PostList extends Component {
         content: 'Este é meu segundo post',
         comments: [
           {
-            id: '1',
+            id: 1,
             author: {
               avatar: 'https://i.pravatar.cc/150?img=1',
               name: 'Helena Macedo',
@@ -44,7 +44,7 @@ class PostList extends Component {
             content: 'Meu primeiro comentário'
           },
           {
-            id: '2',
+            id: 2,
             author: {
               avatar: 'https://avatars2.githubusercontent.com/u/2254731?v=4',
               name: 'Diego Oliveira',

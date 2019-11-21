@@ -1,4 +1,5 @@
 import React from 'react'
+import CommentItem from './CommentItem'
 
 function PostHeader({ author, date }){
   return(
@@ -17,6 +18,7 @@ function PostItem({ author, date, content, comments }){
     <div className="post">
       <PostHeader author={author} date={date} />
       <p className="post-content">{content}</p>
+      <CommentItem comments={comments}/>
     </div>
   )
 }
